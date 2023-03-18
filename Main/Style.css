@@ -1,0 +1,420 @@
+@import "../blocks/bloque1.css";
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  background-color: #521d53;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  height: 810px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-left: 50px;
+  margin-top: 1% px;
+  margin-right: 50px;
+  height: 80px;
+}
+header .img-logo {
+  height: 40px;
+  margin-top: 16px;
+}
+header .img-burg {
+  height: 30px;
+  padding-top: 20px;
+}
+header .button {
+  display: flex;
+  margin-left: 15px;
+  margin-right: 15px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 500px;
+  width: 400px;
+  margin-top: 50px;
+}
+header .button h1 {
+  text-align: center;
+  color: white;
+  font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.0625;
+  letter-spacing: -1.5px;
+  font-size: 2.5rem;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+header .button h1 span {
+  color: #ecb22e;
+}
+header .button .reunir {
+  text-align: center;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 300;
+  line-height: 1.444;
+  letter-spacing: -0.2px;
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  margin-bottom: 30px;
+}
+header .button .button1 {
+  align-self: center;
+  width: 350px;
+  height: 57px;
+  color: #49154a;
+  border-radius: 6px;
+}
+header .button .button2 {
+  display: flex;
+  background-color: #3c7fcc;
+  width: 350px;
+  height: 57px;
+  align-self: center;
+  color: white;
+  align-items: center;
+  align-content: flex-start;
+  padding-left: 5px;
+  margin-left: 0;
+  padding-right: 10px;
+  justify-content: space-around;
+  margin-top: 10px;
+  border-radius: 6px;
+  border-style: none;
+}
+header .button .button2 .google {
+  max-width: 25px;
+}
+header .vid-loop {
+  max-width: 100%;
+}
+
+.bloque2 {
+  margin-top: 0px;
+}
+.bloque2 .selecciona {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 96vw;
+  margin: 0 auto;
+}
+.bloque2 .selecciona h1 {
+  font-family: Helvetica;
+  font-weight: 480;
+  line-height: 1.1875;
+  letter-spacing: -0.4px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.bloque2 .selecciona p {
+  font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.4444;
+  letter-spacing: 0.2px;
+  font-size: 1.1rem;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.bloque2 .selecciona .button {
+  display: flex;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 0 0 0px;
+}
+.bloque2 .selecciona .button1 {
+  width: 350px;
+  height: 57px;
+  background-color: #49154a;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  font-weight: 700;
+  text-align: center;
+  box-shadow: 0 0 0 0px;
+  font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+}
+.bloque2 .selecciona .button2 {
+  border-color: #49154a;
+  width: 350px;
+  height: 57px;
+  color: #49154a;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 4px;
+  font-weight: 700;
+  border-width: 1px;
+  box-shadow: inset 0 0 0 1px #611f69;
+}
+.bloque2 .selecciona .percentages {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 0px;
+}
+.bloque2 .selecciona .percentages h1 {
+  color: #611f69;
+  font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1;
+  font-size: 3rem;
+  margin-bottom: 0.25rem;
+  text-align: center;
+}
+.bloque2 .selecciona .percentages p {
+  font-size: 16px;
+  width: 250px;
+  text-align: justify;
+  justify-content: center;
+}
+.bloque2 .selecciona .selecciona__hemos {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+  margin-bottom: 40px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.bloque2 .selecciona .selecciona__hemos .selecciona__hemos-p {
+  font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 300;
+  line-height: 1.417;
+  letter-spacing: -0.3px;
+  margin-top: 0;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  font-style: italic;
+  justify-content: center;
+  text-align: justify;
+}
+.bloque2 .selecciona .selecciona__hemos .selecciona__mark {
+  text-align: left;
+  width: 100%;
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+}
+.bloque2 .selecciona .selecciona__hemos .selecciona__mark p {
+  padding-left: 0px;
+  text-align: left;
+  letter-spacing: 0.1;
+  padding-bottom: 10px;
+}
+.bloque2 .selecciona .selecciona__hemos .selecciona__ver {
+  text-decoration: none;
+  padding-left: 0px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #1264a3;
+  padding-top: 10px;
+  height: 15px;
+  font-size: 20px;
+}
+.bloque2 .selecciona .selecciona__prom {
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 300;
+  line-height: 1.2857;
+  letter-spacing: normal;
+  font-size: 13px;
+  margin-bottom: 1rem;
+  color: #696969;
+  text-align: center;
+  justify-content: center;
+  width: 90vw;
+}
+.bloque2 .vidyoutube {
+  margin-top: 10px;
+  max-height: 220px;
+  max-width: 350px;
+  border-top-right-radius: 500px;
+  border-bottom-right-radius: 500px;
+  margin-left: 0px;
+  padding-left: 0px;
+  margin-bottom: 30px;
+}
+
+.bloque3 {
+  background-color: #f4ede4;
+  padding-bottom: 18px;
+  align-items: center;
+  width: 100vw;
+}
+.bloque3 .bloque3-h2 {
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.bloque3 .bloque3-img {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+.bloque3 .bloque3-func {
+  padding-top: 10px;
+  gap: 10px;
+}
+.bloque3 .bloque3-echa {
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+.bloque3 .bloque3-exam {
+  display: flex;
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  justify-content: space-between;
+  align-items: left;
+  color: #1264a3;
+  padding-left: 0px;
+}
+.bloque3 .img {
+  align-items: center;
+  margin-left: 50px;
+  padding-top: 20px;
+}
+
+.bloque4 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #49154a;
+  height: 400px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 40px;
+  align-items: center;
+}
+.bloque4 .bloque4-te {
+  color: white;
+  text-align: center;
+  font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 600;
+  line-height: 1.0625;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+.bloque4 .button {
+  display: flex;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 0 0 0px;
+}
+.bloque4 .button1 {
+  width: 350px;
+  height: 57px;
+  background-color: #49154a;
+  color: white;
+  border-color: white;
+  border-radius: 4px;
+  font-weight: 700;
+  text-align: center;
+  box-shadow: 0 0 0 0px;
+  font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+}
+.bloque4 .button2 {
+  width: 350px;
+  height: 57px;
+  color: #49154a;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 4px;
+  font-weight: 700;
+  border-width: 1px;
+  box-shadow: inset 0 0 0 1px #611f69;
+}
+
+footer {
+  width: 100%;
+}
+footer div {
+  max-width: 90%;
+  margin: 0 auto;
+}
+footer div img {
+  height: 50px;
+  margin-top: 30px;
+  margin-left: 5px;
+}
+footer div .footer-li1 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 20px;
+  border-bottom: 1px solid #d5d5d5;
+  padding: 40px 0 34px;
+  text-decoration: none;
+  list-style: none;
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+}
+footer div .footer-li1 li {
+  display: flex;
+  justify-content: space-between;
+}
+footer div .footer-li1 a {
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+}
+footer div .footer_li2 {
+  padding: 20px 0 20px;
+  gap: 60px;
+  list-style: none;
+}
+footer div .footer_li2 li {
+  padding-bottom: 20px;
+}
+footer div .footer_li2 a {
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+footer .footer-media {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-media img {
+  height: 25px;
+}
+footer .footer-2023 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+footer .footer-2023 p {
+  color: black;
+  font-size: 12px;
+  line-height: 20px;
+  margin: 30px 10px;
+  letter-spacing: 0.5px;
+}/*# sourceMappingURL=Style.css.map */

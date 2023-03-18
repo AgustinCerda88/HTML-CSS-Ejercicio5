@@ -1,0 +1,123 @@
+.bloque1 {
+  background-color: #f4ede4;
+  padding-top: 5%;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 18px;
+}
+.bloque1 h2 {
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  font-size: 0.875rem;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+.bloque1 .logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-left: 30px;
+  margin-right: 30px;
+  align-items: center;
+  height: 220px;
+  margin-bottom: 50px;
+}
+.bloque1 .logos .air {
+  height: 35px;
+}
+.bloque1 .logos .nasa {
+  height: 67px;
+}
+.bloque1 .logos .uber {
+  height: 26px;
+}
+.bloque1 .logos .targ {
+  height: 65px;
+}
+.bloque1 .logos .then {
+  height: 40px;
+}
+.bloque1 .logos .etsy {
+  height: 40px;
+}
+.bloque1 .mvlcrv {
+  height: 400px;
+}
+.bloque1 .reune {
+  margin: 1.2rem 0.95rem 0;
+}
+.bloque1 .reune h1 {
+  font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.1875;
+  letter-spacing: -0.3px;
+  margin-bottom: 1rem;
+}
+.bloque1 .reune p {
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.4444;
+  letter-spacing: normal;
+  font-size: 1.125rem;
+}
+.bloque1 .reune h2 {
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-size: 1.02rem;
+  font-weight: 400;
+  margin-left: 0px;
+  margin-top: 5px;
+  padding-left: 0px;
+  text-align: left;
+  letter-spacing: 0.1px;
+}
+.bloque1 .reune h2 a {
+  color: #1264a3;
+  text-decoration: none;
+  padding-right: 0px;
+  margin-right: 0px;
+  width: 100% px;
+}
+.bloque1 .mvlcrvrgt {
+  margin-right: 0px;
+  padding-right: 0px;
+  height: 400px;
+}
+.bloque1 .selecciona {
+  margin: 1.2rem 0.95rem 0;
+  margin-bottom: 100px;
+}
+.bloque1 .selecciona h1 {
+  font-family: Helvetica;
+  font-weight: 480;
+  line-height: 1.1875;
+  letter-spacing: -0.4px;
+  margin-bottom: 1rem;
+}
+.bloque1 .selecciona p {
+  font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.4444;
+  letter-spacing: 0.2px;
+  font-size: 1.125rem;
+}
+.bloque1 .selecciona h2 {
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-size: 1.02rem;
+  font-weight: 400;
+  margin-left: 0px;
+  margin-top: 5px;
+  padding-left: 0px;
+  text-align: left;
+  letter-spacing: 1px;
+}
+.bloque1 .selecciona h2 a {
+  color: #1264a3;
+  text-decoration: none;
+  padding-right: 0px;
+  margin-right: 0px;
+  width: 100% px;
+  margin-bottom: 0px;
+}/*# sourceMappingURL=bloque1.css.map */
